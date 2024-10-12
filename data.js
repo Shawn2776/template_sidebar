@@ -1,29 +1,17 @@
 export const elections = [
   {
     id: 1,
-
     userId: 1,
-
     title: "President of the United States",
-
     description: "Election 1 Description",
-
     randomizedOptions: true,
-
     allowSustain: true,
-
     startDate: "2024-11-01T00:25:00.000Z",
-
     endDate: "2024-11-30T02:00:00.000Z",
-
     minChoice: 1,
-
     maxChoice: 1,
-
     voters: [1, 2, 3],
-
     status: "Building",
-
     attachments: ["", "", ""], // Changed from attachment1, 2, 3 to an array for scalability
   },
 

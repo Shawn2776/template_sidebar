@@ -58,7 +58,7 @@ const Sidebar = () => {
     <aside
       className={`min-h-screen transition-all duration-700 ${
         isOpen ? "w-64" : "w-20"
-      } flex p-4 bg-base-100 text-white relative`}
+      } flex p-4 bg-base-100 text-white relative flex-col`}
     >
       <div className="absolute p-2 text-white bg-black border rounded-md top-4">
         <SiAcademia className="text-md" />
@@ -97,6 +97,9 @@ const Sidebar = () => {
                 </div>
               ))}
         </div>
+      </div>
+      <div className="flex justify-center w-full mt-20">
+        <Link href="/overview">Return</Link>
       </div>
     </aside>
   );
